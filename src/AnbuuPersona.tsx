@@ -251,7 +251,7 @@ export default function AnbuuPersonaPortfolio() {
               <div className="bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-lg border border-gray-200 dark:border-gray-700 hover:scale-105 transition-transform" data-aos="fade-left">
                 <h3 className="font-semibold text-xl mb-2">High School - Computer Science</h3>
                 <p className="text-gray-600 dark:text-gray-400 mb-1">Petit Seminaire Higher Secondary School, Puducherry</p>
-                <p className="text-gray-500 dark:text-gray-400">June 2010 - May 2022</p>
+                <p className="text-gray-500 dark:text-gray-400">June 2008 - May 2022</p>
               </div>
             </div>
           </div>
