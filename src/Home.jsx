@@ -188,15 +188,21 @@ export default function Home() {
       {/* ---------- Skills ---------- */}
       <section id="skills" className="px-6 py-24">
         <div className="max-w-5xl mx-auto">
-          <p className="font-mono text-xs tracking-widest text-amber-400 uppercase mb-2" data-aos="fade-up">
+          
+          <div className="mb-6">
+            <p className="font-mono text-xs tracking-widest text-amber-400 uppercase mb-2" data-aos="fade-up">
             Toolkit
           </p>
           <h2 className="text-3xl md:text-4xl font-semibold mb-10" data-aos="fade-up" data-aos-delay="80">
             Skills
-          </h2>
-          <div data-aos="fade-up" data-aos-delay="160">
-            <SkillsRadar />
-          </div>
+          </h2> 
+            <p className="mt-2 max-w-2xl text-white/60 text-sm md:text-base leading-6">
+               A clean overview of the tools and technologies I use to build modern web apps, backend services, and personal projects.
+             </p>
+             <SkillsRadar />
+           </div>
+            
+           
         </div>
       </section>
 

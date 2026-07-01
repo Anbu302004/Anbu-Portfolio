@@ -19,8 +19,9 @@ export const skillGroups = [
   { key: 'lang', label: 'Languages', items: ['Java', 'JavaScript'] },
   { key: 'web', label: 'Web', items: ['React', 'HTML', 'CSS', 'Bootstrap'] },
   { key: 'backend', label: 'Backend', items: ['Node.js', 'Spring Boot', 'REST APIs'] },
-  { key: 'data', label: 'Data', items: ['MySQL'] },
-  { key: 'tools', label: 'Tooling', items: ['Git', 'GitHub', 'Postman', 'OOP', 'DSA', 'MVC'] },
+  { key: 'data', label: 'DataBase', items: ['MySQL'] },
+  { key: 'tools', label: 'Tooling', items: ['Git', 'GitHub', 'Postman'] },
+  { key: 'concepts', label: 'Core Concepts', items: ['OOP', 'DSA', 'MVC'] },
 ];
 
 export const projects = [
