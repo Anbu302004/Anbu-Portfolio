@@ -29,7 +29,7 @@ export default function Nav() {
 
   return (
     <nav
-      className="sticky top-0 z-50 bg-[#0B1220]/85 backdrop-blur-md border-b border-white/8"
+      className="sticky top-0 z-50 bg-[#060910] backdrop-blur-md border-b border-white/8"
       data-aos="fade-down"
       data-aos-duration="500"
     >
@@ -37,7 +37,7 @@ export default function Nav() {
         <div className="h-16 flex items-center justify-between">
           <Link
             to="/"
-            className="font-mono text-sm tracking-widest text-amber-400 hover:text-amber-300 transition-colors"
+            className="font-mono text-base tracking-widest text-amber-400 hover:text-amber-300 transition-colors"
           >
             ANBU<span className="text-white/40">.N</span>
           </Link>

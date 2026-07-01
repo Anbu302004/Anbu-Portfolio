@@ -186,7 +186,7 @@ export default function Home() {
       </section>
 
       {/* ---------- Skills ---------- */}
-      <section id="skills" className="px-6 py-24 border-t border-white/8">
+      <section id="skills" className="px-6 py-24">
         <div className="max-w-5xl mx-auto">
           <p className="font-mono text-xs tracking-widest text-amber-400 uppercase mb-2" data-aos="fade-up">
             Toolkit
@@ -201,14 +201,11 @@ export default function Home() {
       </section>
 
       {/* ---------- Projects ---------- */}
-      <div className="border-t border-white/8">
-        <Projects />
-      </div>
+      <Projects />
 
       <footer className="py-10 px-6 border-t border-white/8">
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row justify-between items-center gap-3 text-sm text-white/40">
           <span>© {new Date().getFullYear()} {profile.name}</span>
-          <span className="font-mono text-xs">Built with React · Tailwind</span>
         </div>
       </footer>
     </div>
