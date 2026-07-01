@@ -209,7 +209,7 @@ export default function Home() {
       {/* ---------- Projects ---------- */}
       <Projects />
 
-      <footer className="py-10 px-6 border-t border-white/8">
+      <footer className="py-10 px-6 border-t border-[#5d5f63]/50">
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row justify-between items-center gap-3 text-sm text-white/40">
           <span>© {new Date().getFullYear()} {profile.name}</span>
         </div>

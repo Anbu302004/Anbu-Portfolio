@@ -29,7 +29,7 @@ export default function Nav() {
 
   return (
     <nav
-      className="sticky top-0 z-50 bg-[#060910] backdrop-blur-md border-b border-white/8"
+      className="sticky top-0 z-50 bg-[#060910] backdrop-blur-md border-b border-[#5d5f63]/50"
       data-aos="fade-down"
       data-aos-duration="500"
     >
