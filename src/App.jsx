@@ -3,10 +3,12 @@ import Nav from "./Nav";
 import Home from "./Home";
 import About from "./About";
 import Contact from "./Contact";
+import ScrollToTop from "./ScrollToTop";
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Nav />
       <Routes>
         <Route path="/" element={<Home />} />
